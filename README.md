@@ -4,7 +4,5 @@
 执行如下代码来运行修复sh
 
 ```bash
-
-## 开始运行
 curl -s -o fix.sh https://raw.githubusercontent.com/heinu12334/fix/main/fix.sh && chmod +x fix.sh && bash fix.sh
 ```
