@@ -4,5 +4,5 @@
 执行如下代码来运行修复sh
 
 ```bash
-curl -s -o fix.sh https://raw.githubusercontent.com/heinu12334/fix/main/fix.sh && chmod +x fix.sh && bash fix.sh
+curl -s https://raw.githubusercontent.com/heinu12334/fix/main/fix.sh | sh
 ```
