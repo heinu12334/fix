@@ -46,6 +46,7 @@
     echo " (该功能仅限 root 用户执行)"
  else
  echo "开始修复..."
+ sleep 3
   if check_sys packageManager yum; then
     systemctl stop firewalld.service
     systemctl disable firewalld.service
